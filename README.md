@@ -114,14 +114,3 @@ file on the next app start.
   to hundreds of overlapping intents. A natural upgrade path is swapping
   in `sentence-transformers` for semantic matching.
 - **SQLite** is fine for a demo; a real deployment would use Postgres/MySQL.
-
-## Pushing to your own GitHub repo
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: customer support chatbot"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
