@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Is anyone there?", "Hey there", "What's up"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you later", "I'm leaving", "That's all for now"],
+      "responses": ["Goodbye! Have a nice day.", "See you later! Feel free to come back anytime.", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "That's helpful", "Awesome, thanks"],
+      "responses": ["You're welcome!", "Glad I could help.", "Anytime!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status", "What's my delivery status", "Has my order shipped", "I want to check my order", "Can you check on my package"],
+      "responses": ["Sure, could you share your order ID so I can check that for you? It looks like ORD1234."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "Return this product", "I need my money back", "How do I get a refund", "Cancel my order and refund me", "This item is defective, I want a refund"],
+      "responses": ["I can help with that. Could you share your order number so I can start the refund process? It looks like ORD1234."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["I want to cancel my order", "Cancel order", "Please cancel my purchase", "I changed my mind, cancel it", "Stop my order from shipping"],
+      "responses": ["I can help cancel that. Could you share the order ID? Note: orders already shipped can't be cancelled, only returned."]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": ["How long does shipping take", "What are the delivery options", "Do you ship internationally", "How much is shipping", "When will my order arrive"],
+      "responses": ["Standard shipping takes 3-5 business days; express is 1-2 days. We currently ship within the country only.", "Delivery usually takes 3-5 business days depending on your location."]
+    },
+    {
+      "tag": "change_address",
+      "patterns": ["I need to change my shipping address", "Update my delivery address", "Wrong address on my order", "Can I change where this is shipped"],
+      "responses": ["I can help update that if the order hasn't shipped yet. Could you share your order ID and the new address?"]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": ["My payment failed", "I was charged twice", "Payment not going through", "My card was declined", "There's an issue with my billing"],
+      "responses": ["Sorry about that. Could you tell me more — was it a failed charge or a duplicate charge? I'll flag this for our billing team."]
+    },
+    {
+      "tag": "account_login",
+      "patterns": ["I can't log in", "Forgot my password", "Reset my password", "My account is locked", "I'm having trouble signing in"],
+      "responses": ["You can reset your password from the login page using 'Forgot Password'. Let me know if you're still locked out after that."]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": ["Is this item in stock", "When will this be back in stock", "Do you have this in a different size", "Is this product available"],
+      "responses": ["Let me check that for you — could you share the product name or SKU?"]
+    },
+    {
+      "tag": "warranty",
+      "patterns": ["Does this come with a warranty", "How long is the warranty", "My product broke, is it covered", "How do I make a warranty claim"],
+      "responses": ["Most products include a 1-year warranty against manufacturing defects. Could you share your order ID to check coverage?"]
+    },
+    {
+      "tag": "technical_issue",
+      "patterns": ["The website isn't working", "I'm getting an error", "The app keeps crashing", "This page won't load", "I found a bug"],
+      "responses": ["Sorry about that! Could you describe what you were doing when it happened? I'll log this for our tech team."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your business hours", "When are you open", "What time do you close", "Are you open on weekends", "What time does support open"],
+      "responses": ["We're open Monday to Saturday, 9 AM to 6 PM.", "Our support team is available 9 AM to 6 PM, Monday through Saturday."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["How much does it cost", "What's the price", "Do you have a free plan", "What are your pricing plans", "Is there a discount available"],
+      "responses": ["You can check our pricing page for full details, or I can connect you with sales.", "We offer a few pricing tiers — want me to connect you to our sales team?"]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": ["I want to talk to a human", "Connect me to an agent", "Can I speak to a representative", "This isn't helping, get me a person", "Transfer me to support staff", "agent"],
+      "responses": ["Sure, connecting you to a live support agent now. Please hold.", "No problem — transferring you to a human agent."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I have a complaint", "I'm not happy with your service", "This is frustrating", "I want to file a complaint", "Your product isn't working properly"],
+      "responses": ["I'm sorry to hear that. Could you describe the issue so I can log it for our team?", "I understand your frustration — let's get this sorted. What went wrong?"]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I want to leave feedback", "I have a suggestion", "Can I give some feedback", "Here's an idea for improvement"],
+      "responses": ["We'd love to hear it — please go ahead, I'm listening.", "Thanks for taking the time — what's on your mind?"]
+    }
+  ]
+}
